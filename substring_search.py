@@ -11,7 +11,8 @@ The function prints the result of calling compare_string with two sample string 
 
 The function compares two strings to see if the second string is a substring of the first string.
 The compare_string function uses a nested loop to compare each character in the two strings.
-It first loops through every possible substring of str1 that is the same length as str2, and then loops through each character in the substring and compares it with the corresponding character in str2.
+It first loops through every possible substring of str1 that is the same length as str2,
+ and then loops through each character in the substring and compares it with the corresponding character in str2.
 If all the characters match, the function returns True.
 If no matching substring is found, the function returns False.
 In the example, the function is called to check whether "Sajjad" is a substring of "SajjadRahmani".
